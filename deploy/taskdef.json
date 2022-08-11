@@ -13,7 +13,12 @@
                 }
             ],
             "essential": true,
-            "environment": [],
+            "environment": [
+                {
+                    "name" : "SECRET_KEY_BASE",
+                    "value" : "5302e89d20f98911c3cb535f86ef003c05b3b86f44c62aac4e5920e0c43f8d903f014e95451974b0c64ffb8e374dca0281c9918f1536df9316f2c5bbc7559b45"
+                }
+            ],
             "mountPoints": [],
             "volumesFrom": [],
             "logConfiguration": {
