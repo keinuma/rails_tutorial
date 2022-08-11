@@ -16,7 +16,7 @@
             "environment": [],
             "secrets": [{
                 "name": "SECRET_KEY_BASE",
-                "valueFrom": "arn:aws:ssm:ap-northeast-1:528416247978:parameter/SECRET_KEY_BASE"
+                "valueFrom": "arn:aws:ssm:ap-northeast-1:528416247978:parameter/terraform_starter/api/SECRET_KEY_BASE"
             }],
             "mountPoints": [],
             "volumesFrom": [],
