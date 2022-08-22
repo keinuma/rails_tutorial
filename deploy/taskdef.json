@@ -13,6 +13,14 @@
                 }
             ],
             "essential": true,
+            "command": [
+                "bundle",
+                "exec",
+                "rails",
+                "s",
+                "-e",
+                "production"
+            ],
             "environment": [],
             "secrets": [
                 {
