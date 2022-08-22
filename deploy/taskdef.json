@@ -30,6 +30,10 @@
                 {
                     "name": "MYSQL_PASSWORD",
                     "valueFrom": "arn:aws:ssm:ap-northeast-1:528416247978:parameter/terraform_starter/api/main_db_password"
+                },
+                {
+                    "name": "MYSQL_HOST_NAME",
+                    "valueFrom": "arn:aws:ssm:ap-northeast-1:528416247978:parameter/terraform_starter/api/main_db_url"
                 }
             ],
             "mountPoints": [],
