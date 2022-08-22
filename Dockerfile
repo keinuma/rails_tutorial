@@ -14,4 +14,3 @@ WORKDIR /work
 
 # Rails のインストール
 RUN bundle install
-CMD ["bundle", "exec", "rails", "s", "-e", "production"]
