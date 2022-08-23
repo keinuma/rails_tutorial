@@ -15,7 +15,8 @@ test:
   <<: *default
   host: <%= ENV['MYSQL_HOST_NAME'] %> 
   username: root
-  password:
+  password: <%= ENV['MYSQL_PASSWORD'] %>
+  database: rails_tutorial_test
 
 production:
   <<: *default
