@@ -17,3 +17,15 @@ create-db:
 .PHONY: migrate
 migrate:
 	rake db:migrate
+
+.PHONY: up
+up:
+	docker compose up
+
+.PHONY: build-up
+build-up:
+	docker compose up --build
+
+.PHONY: down
+down:
+	docker compose down
