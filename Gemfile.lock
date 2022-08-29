@@ -253,7 +253,7 @@ DEPENDENCIES
   mysql2
   oj
   puma (~> 5.0)
-  rack-cors
+  rack-cors (~> 1.1.1)
   rails (~> 7.0.3, >= 7.0.3.1)
   redis (~> 4.0)
   rspec-rails (~> 4.0.0)
